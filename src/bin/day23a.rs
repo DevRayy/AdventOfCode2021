@@ -4,7 +4,7 @@ use lazy_static::lazy_static;
 use std::collections::{BinaryHeap, HashMap};
 
 fn main() {
-    let input = fs::read_to_string("data/day23.txt")
+    let input = fs::read_to_string("data/day23a.txt")
         .expect("Unable to load input file");
     println!("Part 1: {}", part1(&input));
 }
